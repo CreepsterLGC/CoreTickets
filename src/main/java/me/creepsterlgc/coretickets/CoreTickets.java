@@ -1,9 +1,9 @@
-package me.creepsterlgc.coretickets;
+package main.java.me.creepsterlgc.coretickets;
 
 import java.util.logging.Logger;
 
-import me.creepsterlgc.core.files.FileCommands;
-import me.creepsterlgc.coretickets.commands.CommandTicket;
+import main.java.me.creepsterlgc.core.files.FileCommands;
+import main.java.me.creepsterlgc.coretickets.commands.CommandTicket;
 
 import org.spongepowered.api.Game;
 import org.spongepowered.api.event.Listener;

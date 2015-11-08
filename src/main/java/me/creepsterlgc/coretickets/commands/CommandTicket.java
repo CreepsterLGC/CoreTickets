@@ -1,4 +1,4 @@
-package me.creepsterlgc.coretickets.commands;
+package main.java.me.creepsterlgc.coretickets.commands;
 
 import java.util.ArrayList;
 import java.util.List;

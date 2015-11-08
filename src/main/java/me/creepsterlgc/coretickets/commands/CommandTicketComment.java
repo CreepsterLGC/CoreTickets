@@ -1,12 +1,12 @@
-package me.creepsterlgc.coretickets.commands;
+package main.java.me.creepsterlgc.coretickets.commands;
 
 import java.util.List;
 
-import me.creepsterlgc.core.customized.CoreDatabase;
-import me.creepsterlgc.core.customized.CoreTicket;
-import me.creepsterlgc.core.utils.CommandUtils;
-import me.creepsterlgc.core.utils.PermissionsUtils;
-import me.creepsterlgc.core.utils.ServerUtils;
+import main.java.me.creepsterlgc.core.customized.CoreDatabase;
+import main.java.me.creepsterlgc.core.customized.CoreTicket;
+import main.java.me.creepsterlgc.core.utils.CommandUtils;
+import main.java.me.creepsterlgc.core.utils.PermissionsUtils;
+import main.java.me.creepsterlgc.core.utils.ServerUtils;
 
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.text.Texts;
