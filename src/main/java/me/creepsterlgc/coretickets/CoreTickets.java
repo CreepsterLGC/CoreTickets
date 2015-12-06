@@ -29,7 +29,7 @@ public class CoreTickets {
     @Listener
     public void onEnable(GameStartingServerEvent event) {
     	
-    	if(FileCommands.TICKET()) game.getCommandDispatcher().register(this, new CommandTicket(), "ticket");
+    	if(FileCommands.TICKET()) game.getCommandManager().register(this, new CommandTicket(), "ticket");
     	
     }
     

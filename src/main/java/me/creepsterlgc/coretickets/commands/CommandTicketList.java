@@ -16,7 +16,7 @@ import org.spongepowered.api.text.Text;
 import org.spongepowered.api.text.Texts;
 import org.spongepowered.api.text.action.TextActions;
 import org.spongepowered.api.text.format.TextColors;
-import org.spongepowered.api.util.command.CommandSource;
+import org.spongepowered.api.command.CommandSource;
 
 
 public class CommandTicketList {
@@ -91,7 +91,7 @@ public class CommandTicketList {
 		p.setPageTitle(Texts.of(TextColors.GOLD, "Tickets"));
 		p.setPageHeader(Texts.of(TextColors.GREEN, "ID", TextColors.GRAY, " | ", TextColors.WHITE, "Priority", TextColors.GRAY, " | ", TextColors.WHITE, "Status", TextColors.GRAY, " | ", TextColors.WHITE, "Issued by", TextColors.GRAY, " | ", TextColors.WHITE, "Message"));
 		
-		Controller.getGame().getCommandDispatcher().process(sender.getCommandSource().get(), "page 1");
+		Controller.getGame().getCommandManager().process(sender.getCommandSource().get(), "page 1");
 		
 	}
 
